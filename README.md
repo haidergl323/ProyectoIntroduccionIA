@@ -6,10 +6,10 @@
 * Sebastian Aristizabal Castañeda, CC 1.000.639.678, Ingeniería de Sistemas
 
 ## Datos
-Los datos del proyecto vienen de La competición Kaggle Titanic, y se pueden hacer disponibles ejecutando desde cualquier notebook en Colab los siguientes comandos
-! comando
-! comando
-después de haber configurado .kaggle/kaggle.json de tal y tal manera.
+Los datos del proyecto vienen de [La competición Kaggle Colombia House Prediction](https://www.kaggle.com/datasets/danieleduardofajardo/colombia-house-prediction), y se pueden hacer disponibles ejecutando desde cualquier notebook en Colab los siguientes comandos
 
-* [Videos primera entrega](link)
-* [Videos segunda entrega](link)
+'''
+import pandas as pd
+!wget https://raw.githubusercontent.com/CodingWithNoDirection/DatosPredictivos1/main/Sales_prediction_Colombia.csv
+df = pd.read_csv('Sales_prediction_Colombia.csv')
+'''
